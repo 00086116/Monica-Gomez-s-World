@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Mundo;
+package Edificaciones;
 
 /**
  *
  * @author Monica Gomez
  */
-public class MundoM {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class ConstruirDragones {
     
 }
