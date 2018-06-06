@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Razas;
 
 /**
  *
  * @author Monica Gomez
  */
-public class Agua {
-    
+
+public class Agua extends Obstaculo{
+
+	public Agua()
+	{
+		super.id=1;		
+		super.nombre="Agua";	
+		super.danio=7;
+		super.vida=20;
+		super.dinero=12;
+		super.maxNum=2;
+	}
 }
