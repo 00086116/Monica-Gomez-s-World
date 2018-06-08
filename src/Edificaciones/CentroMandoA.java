@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Edificaciones;
-
-/**
- *
- * @author Monica Gomez
- */
-public class CentroMandoA {
     
+public class CentroMandoA extends Locacion {
+
+	public CentroMandoA(Player1 p,Inventory i) {
+		super.locationId=1;
+		super.name="Centro de Mando de la raza agua";
+		super.itemName="Fire Wood";
+		super.obstacle=new Vampire();
+		super.player=p;
+		super.inventory=i;
+		
+	}
 }
