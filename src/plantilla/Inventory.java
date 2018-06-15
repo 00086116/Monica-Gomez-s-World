@@ -1,5 +1,6 @@
-package Recursos;
-public class Recurso1 {
+package plantilla;
+
+public class Inventory {
 	public boolean water,food,fireWood=false;
 	public int id,weaponID,armorID;
 	public int defend=0;
@@ -8,14 +9,14 @@ public class Recurso1 {
 	public void addWeapon(int id , String name , int damage)
 	{
 		this.weaponID=id;
-		this.weaponString=name + " " + "+" + damage +" damage";
+		this.weaponString=name + " " + "+" + damage +" daño";
 		
 	}
 	
 	public void addArmor(int id ,String name , int avoid)
 	{
 		this.armorID=id;
-		this.armorString="Armor: " + name + " Armor " + avoid + " avoid.";
+		this.armorString="Armadura: " + name + " Armadura " + avoid + ".";
 		
 	}
 	public void defend(int avoid)

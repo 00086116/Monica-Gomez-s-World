@@ -1,5 +1,5 @@
+package plantilla;
 
-package Mundo;
 import java.util.Random;
 
 public class Obstaculo {
