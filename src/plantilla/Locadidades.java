@@ -154,9 +154,9 @@ public class Locadidades {
                 System.out.println("===============================================================");
                 System.out.println("La supervivencia de tu raza depende de ti, ¿Que deseas hacer? ");
 		System.out.println("1. Ir al centro de mando");
-		System.out.println("2. Santuario de tierra ");
-		System.out.println("3. Santuario de raza metal");
-		System.out.println("4. Santuario de agua");
+		System.out.println("2. Santuario de METAL");
+		System.out.println("3. Santuario de TIERRA");
+		System.out.println("4. Santuario de AGUA");
 		System.out.println("5. Ir a la tienda.");
 		System.out.println("0. Ayuda.");
 		System.out.print("Tu plan de accion es:");
@@ -178,12 +178,12 @@ public class Locadidades {
 			safehouse.getLocation();
 		}
 		else if(select==2){
-			Locadidades restaurant=new SantuarioT(player,inventory);
+			Locadidades restaurant=new SantuarioMe(player,inventory);
 			restaurant.getLocation();
 		}
 		
 		else if(select==3){
-			Locadidades forest=new SantuarioM(player,inventory);
+			Locadidades forest=new SantuarioTierra(player,inventory);
 			forest.getLocation();
 		}
 		

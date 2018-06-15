@@ -20,9 +20,9 @@ public class CentroAyuda extends Locadidades {
 		System.out.println("\n           EDIFICACIONES ");
 		System.out.println("******************************************");
 		System.out.println("1. Centro de mando");
-		System.out.println("2. Santuario de raza metal");
-		System.out.println("3. Santuario de raza tierra");
-		System.out.println("4. Santuario de agua");
+		System.out.println("2. Santuario de raza agua");
+		System.out.println("3. Santuario de raza metal");
+		System.out.println("4. Santuario de tierra");
 		System.out.println("5. Tienda.");
 		System.out.println("\n              RAZAS ");
 		System.out.println("******************************************");
@@ -42,9 +42,9 @@ public class CentroAyuda extends Locadidades {
 		System.out.println("3. Pesada  ||Precio: 40 ||Daño -5");
 		System.out.println("\n               MISIONES");
 		System.out.println("******************************************");
-		System.out.println("1. Go to the Restaurant. Kill all the zombies .Gain FOOD item!");
-		System.out.println("2. Go to the Forest. Kill all the vampires .Gain FIREWOOD item!");
-		System.out.println("3. Go to the Riverside. Kill all the bears .Gain WATER item!");	
+		System.out.println("1. Si derrotas raza metal, obtienes metales para construccion");
+		System.out.println("2. Si derotas raza tierra, obtienes lanza rocas");
+		System.out.println("3. Si derotas raza agua, obtienes agua");	
 		System.out.println("4. Regresar al centro de mando con todo lo recolectado");
 		printMenu();
 	}

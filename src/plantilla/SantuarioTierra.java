@@ -4,11 +4,11 @@ package plantilla;
 import Main.Player;
 
 
-public class SantuarioT extends Locadidades{
+public class SantuarioTierra extends Locadidades{
 
-	public SantuarioT(Player p,Inventory i) {
-		super.locationId=2;
-		super.name="Santuario de raza tierrao";
+	public SantuarioTierra(Player p,Inventory i) {
+		super.locationId=3;
+		super.name="Santuario de raza tierra";
 		super.itemName="Lanza rocas";
 		super.obstacle=new RazaTierra();
 		super.player=p;

@@ -3,10 +3,10 @@ package plantilla;
 import Main.Player;
 
 
-public class SantuarioM extends Locadidades {
+public class SantuarioMe extends Locadidades {
 
-	public SantuarioM(Player p,Inventory i) {
-		super.locationId=3;
+	public SantuarioMe(Player p,Inventory i) {
+		super.locationId=2;
 		super.name="Santuario de raza metal";
 		super.itemName="Metales para construccion";
 		super.obstacle=new RazaMetal();
