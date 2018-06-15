@@ -40,9 +40,9 @@ public class Player {
 
 	public void characterMenu()
 	{
-		System.out.println( "Welcome the Game " + playerName + "\nSelect Warrior ! \n1)Samurai\n2)Sniper\n3)Knight");
+		System.out.println( "Bienvenido" + playerName + "\n Selecciona una raza \n1)Raza agua\n2)Raza tierra\n3)Raza metal");
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Your Choice : ");
+		System.out.print("Elegiste: ");
 		id=scan.nextInt();
 		selectCharacter(id);
 	}
@@ -51,7 +51,7 @@ public class Player {
 	{
 		if(id==1)
 		{
-			name = "Samurai";
+			name = "Raza agua";
 			health=21;
 			realHealth=21;
 			damage=5;
@@ -59,7 +59,7 @@ public class Player {
 			}
 		else if(id==2)
 		{
-			name = "Sniper";
+			name = "Raza tierra";
 			health=18;
 			realHealth=18;
 			damage=7;
@@ -67,7 +67,7 @@ public class Player {
 		}
 		else
 		{
-			name = "Knight";
+			name = "Raza Metal";
 			realHealth=24;
 			health=24;
 			damage=8;
@@ -94,7 +94,8 @@ public class Player {
 	}
 	
 	public void toCharacter()
+                
 	{
-		System.out.println("Warrior created successfully! ID=" + id + ",Name=" + name +",Health=" +health +",Damage=" + damage +",Money="+money);
+		
 	}
 }
