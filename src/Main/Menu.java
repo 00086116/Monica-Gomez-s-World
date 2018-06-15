@@ -1,3 +1,5 @@
+package Main;
+
 
 import plantilla.Inventory;
 import plantilla.Locadidades;
